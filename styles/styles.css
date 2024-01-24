@@ -4,7 +4,8 @@
     margin: auto;
 
 }
-body{
+
+body {
     width: 1600px;
 }
 
@@ -36,6 +37,7 @@ header {
     width: 500px;
     margin: 10px 230px 10px 850px;
     /* border: solid black 5px; */
+    line-height: 1.5;
 }
 
 .header-btn {
@@ -49,4 +51,50 @@ header {
     font-weight: 600;
     border: none;
     margin: 10px 255px 0px 1190px;
+}
+
+/* failures div styles */
+
+.failures-div {
+    display: flex;
+}
+
+.failures-picture {
+    width: 530px;
+    margin: 150px 130px 150px 230px ;
+    /* border: solid black 4px; */
+}
+
+.failures-collumn {
+    margin: 370px 450px 0px 0px;
+    /* border: solid black 5px; added border to visualise margin and padding */
+
+}
+
+.failures-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 400px;
+    margin: 0;
+    /* border: solid black; */
+}
+
+.failures-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 420px;
+    line-height: 1.5;
+}
+
+.failures-list{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.failures-list li{
+    list-style:lower-greek;
 }
