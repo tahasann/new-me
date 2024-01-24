@@ -76,7 +76,6 @@ header {
     font-weight: 700;
     width: 400px;
     margin: 0;
-    /* border: solid black; */
 }
 
 .failures-text {
@@ -96,8 +95,7 @@ header {
 }
 
 .failures-list li {
-    list-style: square;
-    /* have to make a check list icon /style */
+    list-style:url(../images/check-1.png);
 }
 
 .my-plans-heading {
